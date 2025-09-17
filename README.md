@@ -1,5 +1,7 @@
 # Factor Graph Optimization for Leak Localization in Water Distribution Networks
 
+![Factor Graph for Leak Localization](figures/fgo-design.png?raw=true)
+
 Implementation and [experimental data](network_data) for the [paper](https://arxiv.org/pdf/2509.10982)
 
 > P. Irofti, L. Romero-Ben, F. Stoican, and V. Puig,
@@ -22,10 +24,10 @@ Distribution Networks},
 
 ## Prerequisite
 Before running make sure you have installed the Python packages:
-* numpy
-* scipy
-* gtsam
-* wntr
+* [numpy](https://numpy.org/)
+* [scipy](https://scipy.org/)
+* [gtsam](https://gtsam.org/)
+* [wntr](https://github.com/USEPA/WNTR)
 
 ## Usage
 Run [test_FGLL.py](test_FGLL.py) and set the network parameter to `Modena`, `LTOWN` or `toy_example`. Default is `Modena`.
