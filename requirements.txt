@@ -1,0 +1,4 @@
+gtsam
+numpy
+scipy
+wntr
