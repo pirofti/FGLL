@@ -53,3 +53,10 @@ while also providing improvements in localization compared to state-of-the-art e
 
 3. Specific water distribution network data are in [network_data](network_data).
 
+## Results
+
+In the paper we compared our results with GHR-S, GSI, [AW-GSI](https://github.com/pirofti/AW-GSI-DL), and [UKF-AW-GSI](https://github.com/luisromeroben/D-UKF-AW-GSI).
+
+![Normalized leak metric for each potential leak](figures/matrix_tile_texample.png?raw=true)
+
+Description: Normalized leak metric for each potential leak, comparing GSI, AW-GSI, UKF-AW-GSI and FGLL. Each image encodes a colour code of the normalized metric of a node (x-axis) in a leak scenario (y-axis).
